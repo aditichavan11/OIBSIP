@@ -1,12 +1,15 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: Times, serif;
-    color: white;
-    background-color: #565676;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: grey;
   }
   
   .container {
@@ -37,7 +40,6 @@ body {
     grid-template-columns: 1fr  ;
     max-width: 78rem;
     margin: 0px auto;
-    color: #A76571;
     align-items: center;
     justify-items: center;
   }
@@ -46,6 +48,7 @@ body {
     max-width: 100%;
     justify-content: center;
     border: 2px solid black;
+    border-radius: 10px;
   }
 
   .bio {
